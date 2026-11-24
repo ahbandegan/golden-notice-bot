@@ -1,0 +1,31 @@
+{
+  "name": "golden-notice-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for real-time gold, coin, and currency prices using Telegraf and gfwdev API",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "gold",
+    "currency",
+    "telegraf"
+  ],
+  "author": "Amirhesam Bandegan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^26.6.6",
+    "@types/node-cron": "^3.0.11",
+    "dotenv": "^18.0.10",
+    "https-proxy-agent": "^9.1.0",
+    "node-cron": "^4.6.0",
+    "socks-proxy-agent": "^10.1.0",
+    "telegraf": "^4.16.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
